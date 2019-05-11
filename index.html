@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,500" rel="stylesheet"/>
+    <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+    <title>Budgety</title>
+</head>
+<body>
+<div class="container js-container">
+    <div class="summary">
+        <div class="summary__date js-summary__month">May 2019</div>
+        <div class="summary__budget js-summary__budget">+ 750.25</div>
+        <div class="summary__label">Available budget</div>
+    </div>
+    <div class="panel">
+        <div class="panel__income">
+            <p>Income <i class="icon ion-ios-arrow-dropdown-circle"></i></p>
+            <p class="js-panel__value_income">+ 2,500.25</p>
+            <p class="panel__percentages"></p>
+        </div>
+        <div class="panel__controller">
+            <label for="checkbox" class="switch">
+                <input class="js-type-checkbox" type="checkbox" id="checkbox">
+                <div class="slider round"></div>
+            </label>
+        </div>
+        <div class="panel__expenses">
+            <p>Expenses <i class="icon ion-ios-arrow-dropup-circle"></i></p>
+            <p class="js-panel__value_expenses">- 1,250.00</p>
+            <p class="panel__percentage js-panel__percentage">95%</p>
+        </div>
+    </div>
+    <div class="add">
+        <div class="add__group">
+            <input class="add__input js-add__input_description" id="description" type="text"
+                   placeholder="Add description">
+            <label class="add__label" for="description">Add description</label>
+        </div>
+        <div class="add__group">
+            <input class="add__input js-add__input_value" id="value" type="number" placeholder="Value">
+            <label class="add__label" for="value">Value</label>
+        </div>
+        <div class="add__group">
+            <button class="btn btn-inc js-add__input_btn">Add</button>
+        </div>
+    </div>
+
+    <div class="list js-list">
+
+        <!--<div class="item">
+            <p class="item__description">
+                Lorem ipsum
+            </p>
+            <div class="item__data">
+                <div class="item__values_inc">
+                    <p class="item__value">
+                        + 1,250.00
+                    </p>
+                </div>
+                <button class="btn item__btn">
+                    <i class="icon ion-ios-trash"></i>
+                </button>
+            </div>
+        </div>-->
+
+        <!--<div class="item">
+            <p class="item__description">
+                Lorem ipsum
+            </p>
+            <div class="item__data">
+                <div class="item__values_exp">
+                    <p class="item__value">
+                        + 1,250.00
+                    </p>
+                    <p class="item__percentage js-item__percentage">
+                        15%
+                    </p>
+                </div>
+                <button class="btn item__btn">
+                    <i class="icon ion-ios-trash"></i>
+                </button>
+            </div>
+        </div>-->
+
+    </div>
+</div>
+</body>
+</html>
