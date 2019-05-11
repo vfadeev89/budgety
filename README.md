@@ -10,4 +10,4 @@
 
 Было интересно и, конечно же, результат:
 
-![]()
+![](https://raw.githubusercontent.com/vfadeev89/budgety/master/thumbnail-min.png)
