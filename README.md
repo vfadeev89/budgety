@@ -10,4 +10,6 @@
 
 Было интересно и, конечно же, результат:
 
+https://vfadeev89.github.io/budgety/
+
 ![](https://raw.githubusercontent.com/vfadeev89/budgety/master/thumbnail-min.png)
